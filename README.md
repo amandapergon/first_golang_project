@@ -1,0 +1,1 @@
+My first Golang project based on Todd's course. I'll edit this README file while I attend the course and advance with the project.
