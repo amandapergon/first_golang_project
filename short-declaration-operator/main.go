@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main() {
+	// DECLARE a variable and ASSIGN a VALUE
 	x := 45
 	fmt.Println(x)
 	x = 90
