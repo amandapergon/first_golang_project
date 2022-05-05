@@ -1,0 +1,25 @@
+package main
+
+import "fmt"
+
+func main() {
+	x := []int{4, 5, 7, 8}
+
+	//fmt.Println(x)
+
+	x = append(x, 77, 88, 99, 1014)
+	//fmt.Println(x)
+
+	y := []int{234, 456, 678, 987}
+	x = append(x, y...)
+	//fmt.Println(y)
+	fmt.Println(x)
+
+	//let's delete 7 and 8
+	//x = append(x[:2], x[4:]...)
+
+	//let's delete 88, 99 and 1014
+	x = append(x[:5], x[8:]...)
+
+	fmt.Println(x)
+}
